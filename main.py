@@ -22,7 +22,6 @@ c. Dado los dos arreglos de producción, desarrollar una función que devuelva u
 
 
 fabricaNorte = [120, 135, 140, 128, 150]
-fabricaSur   = [110, 125, 130, 120, 145]
 
 def pregunta_a():
     produccionNorte = max(fabricaNorte)
@@ -35,6 +34,7 @@ def pregunta_b():
     acumuladoNorte = 0
     for i in fabricaNorte:
         acumuladoNorte += i
+        i++
     
     
     acumuladoSur = 0
