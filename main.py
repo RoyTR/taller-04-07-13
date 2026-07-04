@@ -30,13 +30,12 @@ def pregunta_a():
     if produccionNorte > produccionSur:
         print(f"La mayor producción fue en la fábrica del Norte con {produccionNorte}")
     else:
-        print(f"La mayor producción fue en la fábrica del Sur con {produccionSur}")
-
+        print(f"hola mundo {produccionSur}")
 def pregunta_b():
     acumuladoNorte = 0
     for i in fabricaNorte:
         acumuladoNorte += i
-    promedioProduccionNorte = acumuladoNorte / len(fabricaNorte)
+    
     
     acumuladoSur = 0
     for i in fabricaSur:
